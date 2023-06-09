@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Python Course</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+body {font-family: "Open Sans"}
+</style>
+</head>
+<body class="w3-light-grey">
+
+<!-- Navigation bar with social media icons -->
+<div class="w3-bar w3-black w3-hide-small">
+    <a href="https://www.facebook.com/tui.la.soi.do" class="w3-bar-item w3-button"><i class="fa fa-facebook-official"></i></a>
+</div>
+  
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1600px">
+
+  <!-- Header -->
+  <header class="w3-container w3-center w3-padding-48 w3-white">
+    <h1 class="w3-xxxlarge"><b>Python Exercises</b></h1>
+    <h6>Welcome to the Python Exercises of <span class="w3-tag">Do Giap</span></h6>
+  </header>
+
+  <!-- Image header -->
+  <header class="w3-display-container w3-wide" id="home">
+    <img class="w3-image" src="https://repository-images.githubusercontent.com/281136952/0bda3e80-d4db-11ea-8531-1fd5b87233f3" alt="Fashion Blog" width="1600" height="1060">
+    <div class="w3-display-left w3-padding-large">
+      <h1 class="w3-text-white">Do Giap's</h1>
+      <h1 class="w3-jumbo  w3-hide-small" style="color:black;"><b>Python Exercises</b></h1>
+      <h6><button class="w3-button w3-white w3-padding-large w3-large w3-opacity w3-hover-opacity-off" onclick="document.getElementById('subscribe').style.display='block'">More Info</button></h6>
+    </div>
+  </header>
+
+  <!-- Grid -->
+  <div class="w3-row w3-padding w3-border">
+
+    <!-- Blog entries -->
+    <div class="w3-col l8 s12">
+    
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>EXERCISE 1</h3>
+          <h5>Try your best, Hung !<span class="w3-opacity"> Level 2</span></h5>
+        </div>
+
+        <div class="w3-justify">
+  
+          <p style="font-size:16px;"><strong>Task requires: </strong> Tính tổng các số chẵn từ 1 đến n
+            <br>
+            Viết một chương trình Python yêu cầu người dùng nhập vào một số nguyên dương n. <br>Chương trình sẽ tính tổng của tất cả các số chẵn từ 1 đến n và in kết quả ra màn hình.</p>
+          
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo1')" id="myBtn"><b>Solution  </b> <span class="w3-tag w3-white">1</span></button></p>
+          <p class="w3-clear"></p>
+          <div class="w3-row w3-margin-bottom" id="demo1" style="display:none">
+            <hr>
+              <div class="w3-col l2 m3">
+                <img src="./img/AVT.png" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Author: <span class="w3-opacity w3-medium">Solution</span></h4>
+                <img src="./img/slt1.png">
+              </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>EXERCISE 2</h3>
+          <h5>Try your best, Hung !<span class="w3-opacity"> Level 3</span></h5>
+        </div>
+
+        <div class="w3-justify">
+  
+          <p style="font-size:16px;"><strong>Task requires: </strong>Tìm các số chia hết cho một số trong một danh sách
+            <br>
+            Viết một chương trình Python yêu cầu người dùng nhập vào một danh sách các số nguyên và một số nguyên dương k.  <br> Chương trình sẽ tìm và in ra tất cả các số trong danh sách ban đầu mà chia hết cho k.</p>
+          
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo2')" id="myBtn"><b>Solution  </b> <span class="w3-tag w3-white">1</span></button></p>
+          <p class="w3-clear"></p>
+          <div class="w3-row w3-margin-bottom" id="demo2" style="display:none">
+            <hr>
+              <div class="w3-col l2 m3">
+                <img src="./img/AVT.png" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Author: <span class="w3-opacity w3-medium">Solution</span></h4>
+                <img src="./img/slt2.png">
+              </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>EXERCISE 3</h3>
+          <h5>Try your best, Hung !<span class="w3-opacity"> Level 3</span></h5>
+        </div>
+
+        <div class="w3-justify">
+  
+          <p style="font-size:16px;"><strong>Task requires: </strong>Tìm số nguyên tố
+            <br>
+            Viết một chương trình Python yêu cầu người dùng nhập vào một số nguyên dương n. <br> Chương trình sẽ tìm và in ra tất cả các số nguyên tố từ 2 đến n.</p>
+          
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo3')" id="myBtn"><b>Solution  </b> <span class="w3-tag w3-white">1</span></button></p>
+          <p class="w3-clear"></p>
+          <div class="w3-row w3-margin-bottom" id="demo3" style="display:none">
+            <hr>
+              <div class="w3-col l2 m3">
+                <img src="./img/AVT.png" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Author: <span class="w3-opacity w3-medium">Solution</span></h4>
+                <img src="./img/slt3.png">
+              </div>
+          </div>
+        </div>
+      </div>
+      
+    <!-- END BLOG ENTRIES -->
+    </div>
+
+    <!-- About/Information menu -->
+    <div class="w3-col l4">
+      <!-- About Card -->
+      <div class="w3-white w3-margin">
+        <img src="https://saigonctt.com.vn/wp-content/uploads/2022/03/Python_programming_language-Logo.wine_.png" alt="Jane" style="width:100%" class="">
+        <div class="w3-container w3-black">
+          <h4>Tip from Do Giap:</h4>
+          <p>"Start small, break it down, and conquer one step at a time. Python exercises become much more manageable when you approach them systematically, focusing on solving smaller subproblems before tackling the bigger picture."</p>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Posts -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Special Exercises</h4>
+        </div>
+        <ul class="w3-ul w3-hoverable w3-white">
+          <li class="w3-padding-16">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Incoming</span>
+            <br>
+            <span>Incoming ....</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Incoming</span>
+            <br>
+            <span>Incoming ....</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Incoming</span>
+            <br>
+            <span>Incoming ....</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Incoming</span>
+            <br>
+            <span>Incoming ....</span>
+          </li>
+        </ul>
+      </div>
+      <hr>
+
+      <!-- Advertising -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Pygame Course:</h4>
+        </div>
+        <div class="w3-container w3-white">
+          <div class="w3-container w3-display-container w3-light-grey w3-section" style="height:200px">
+            <span class="w3-display-middle">
+                <a href="https://caodadanac.github.io/py-course-1/">
+                <img width="400" style="object-fit:cover;" src="./img/hehe.png">
+            </a>
+            </span>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Tags -->
+    
+      
+
+      <!-- Inspiration -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Inspired Musics for Learning</h4>
+        </div>
+        <div class="w3-row-padding w3-white">
+          <div class="w3-col s6">
+            <p>
+                <a href="https://open.spotify.com/track/7g9SC73YvK88N1MHQm1psg">
+                    <img src="https://i.scdn.co/image/ab67616d00001e0250ee920706076f7ac36e65bb" alt="Jeans" style="width:100%">
+                </a></p>
+                <p>
+                    <a href="https://open.spotify.com/track/3tmrVfUyAVyZYaK3SzHOju">
+                        <img src="	https://i.scdn.co/image/ab67616d00001e02aeb7230d8cc9bb9e5a59e5d8" alt="Jeans" style="width:100%">
+                    </a></p>
+          </div>
+          <div class="w3-col s6">
+            <p>
+                <a href="https://open.spotify.com/track/6NnloQTlbEfKFY41tM4yYz">
+                    <img src="https://i.scdn.co/image/ab67616d00001e020dc7db133172740c3dd44129" alt="Jeans" style="width:100%">
+                </a></p>
+                <p>
+                    <a href="https://open.spotify.com/track/0wMl103SCiw00tCw8orKvK">
+                        <img src="	https://i.scdn.co/image/ab67616d00001e02118df5d603f6ea61e60a1522" alt="Jeans" style="width:100%">
+                    </a></p>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Follow Me</h4>
+        </div>
+        <div class="w3-container w3-xlarge w3-padding">
+        <a href="https://www.facebook.com/tui.la.soi.do" ><i class="fa fa-facebook-official w3-hover-opacity"></i>
+        </a>
+        
+        </div>
+      </div>
+      <hr>
+      
+      <!-- Subscribe -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>More Exercises ?</h4>
+        </div>
+        <div class="w3-container w3-white">
+          <p>Enter your e-mail below and get notified for more Python exercises.</p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail" style="width:100%"></p>
+          <p><button type="button" onclick="document.getElementById('subscribe').style.display='block'" class="w3-button w3-block w3-red">Receive more exercises.</button></p>
+        </div>
+      </div>
+
+    <!-- END About/Intro Menu -->
+    </div>
+
+  <!-- END GRID -->
+  </div>
+
+<!-- END w3-content -->
+</div>
+
+<!-- Subscribe Modal -->
+<div id="subscribe" class="w3-modal w3-animate-opacity">
+  <div class="w3-modal-content" style="padding:32px">
+    <div class="w3-container w3-white">
+      <i onclick="document.getElementById('subscribe').style.display='none'" class="fa fa-remove w3-transparent w3-button w3-xlarge w3-right"></i>
+      <h2 class="w3-wide">WELCOME</h2>
+      <p>Join my mailing list to receive MORE Python exercises.</p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail"></p>
+      <button type="button" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom" onclick="document.getElementById('subscribe').style.display='none'">Receive more exercises</button>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-dark-grey" style="padding:32px">
+  <a href="#" class="w3-button w3-black w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <p>Powered by <a href="https://www.facebook.com/do.zap.dz" target="_blank">Do Giap</a></p>
+</footer>
+
+<script>
+// Toggle between hiding and showing blog replies/comments
+document.getElementById("myBtn").click();
+function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+function likeFunction(x) {
+  x.style.fontWeight = "bold";
+  x.innerHTML = "✓ Liked";
+}
+</script>
+
+</body>
+</html>
